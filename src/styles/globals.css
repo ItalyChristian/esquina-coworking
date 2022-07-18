@@ -1,0 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: "Montserrat";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+p, span {
+  font-weight: 300;
+}
+
+button { 
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+:root {
+  --grey: #313131;
+  --dark-grey: #40433F;
+  --soft-grey: #C4C4C4;
+
+  --green: #838F67;
+  --green1: #525D4D;
+  --green2: #6E7C65;
+  --green3: #85957B;
+  --green4: #9CA995;
+  --green5: #AEB9A9;
+}

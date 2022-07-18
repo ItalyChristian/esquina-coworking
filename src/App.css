@@ -1,0 +1,90 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: "Montserrat";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+p, span {
+  font-weight: 300;
+}
+
+button { 
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+:root {
+  --grey: #313131;
+  --dark-grey: #40433F;
+  --soft-grey: #C4C4C4;
+
+  --green: #838F67;
+  --green1: #525D4D;
+  --green2: #6E7C65;
+  --green3: #85957B;
+  --green4: #9CA995;
+  --green5: #AEB9A9;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
